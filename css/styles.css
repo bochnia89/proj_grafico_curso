@@ -1,0 +1,256 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Patrick+Hand+SC&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://use.typekit.net/iek4emy.css");
+
+:root {
+/*👉color👈*/
+--cor-primaria: #674EA7;
+--cor-secundaria: #dad2e9;
+--cor-grifatexto: #dad2e9;
+--cor-caneta: #145b99;
+--cor-fundo: #FFFFFF;
+--cor-texto: #212121;
+--cor-texto: #353535;
+
+--iara:#60669C;
+--nina:#BB4A68;
+--nilo:#99A941;
+--sol:#ebae35;
+--oto:#B05A93;
+--tico:#528EAF;
+--isa:#468087;
+--ada:#da7d1b;
+
+--iara-contraste:#515683;
+--nina-contraste:#813247;
+--nilo-contraste:#636d2a;
+--sol-contraste:#8f681b;
+--oto-contraste:#8b4875;
+--tico-contraste:#406f88;
+--isa-contraste:#346166;
+--ada-contraste:#a36421;
+
+/* fontes */
+--titulo:"puffin", sans-serif;
+--texto:"Work Sans", sans-serif;
+--citacao:"Noto Serif", serif;
+
+
+}
+
+.instrucao{
+    background: var(--cor-texto);
+    padding: 1em;
+    color:#fff;
+    font-family: var(--texto);
+    margin: 1.5em 0 0 0;
+}
+
+.indie-flower-regular {
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.patrick-hand-sc-regular {
+  font-family: "Patrick Hand SC", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.c1bold{
+    font-weight: bold;
+}
+
+.c1italico{
+    font-style: italic;
+}
+
+.c1bolditalico{
+    font-weight: bold;
+    font-style: italic;
+}
+.c4textosublinhado{
+    border-bottom: 0.1em solid var(--cor-texto);
+        text-decoration: none;
+}
+.c4textotachado{
+    text-decoration: line-through;
+}
+
+.p0tit1,
+.p0tit2,
+.p0tit3,
+.p0tit4,
+.p0tit5,
+.p0tit6 {
+    font-family: "puffin", sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.p0tit1 {
+    color: var(--cor-primaria);
+    border: 0.1em solid var(--cor-primaria);
+    border-radius: 0.3em;
+    width: fit-content;
+    max-width: 100%;
+    padding: 0.1em 0.8em;
+}
+.p0tit2 {
+     color: var(--cor-primaria);
+}
+.p0tit3 {
+    color: var(--cor-texto);
+}
+
+.p0tit4 {
+}
+.p0tit5 {
+}
+.p0tit6 {
+}
+.p2texto {
+    color: var(--cor-texto);
+    font-family: var(--texto);
+    line-height: 1.5em;
+}
+.p2textoitem {
+    color: var(--cor-texto);
+    list-style: disc;
+    font-family: var(--texto);
+}
+.p3citacao{
+    font-family: "Noto Serif", serif;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+    padding: 0.2em 0.8em;
+    margin: 0.5em 0 0.5em 0;
+ 
+     
+}
+.p3citacao::before{
+    content: "“";
+    color: var(--cor-primaria);
+    font-size: 1.5em;
+    background: transparent;
+    position: absolute;
+    margin: -6px 0 0 -12px;
+}
+.p3citacao::after{
+    content: "”";
+    color: var(--cor-primaria);
+    font-size: 1.5em;
+ 
+
+}
+.p4legenda {
+    color: var(--cor-texto);
+    font-family: var(--texto);
+}
+.p3intermediario {
+    color: var(--cor-texto);
+    font-family: var(--texto);
+}
+.o5nota1 {
+     font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--cor-caneta);
+}
+.comentario{
+    font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--cor-caneta);
+  width: 250px;
+  margin: 1em;
+}
+.p5balao {
+     font-family: "Patrick Hand SC", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/* balao fala personagem */
+.p5balao + .iara,
+.p5balao + .nina,
+.p5balao + .nilo,
+.p5balao + .sol,
+.p5balao + .oto,
+.p5balao + .tico,
+.p5balao + .isa,
+.p5balao + .ada{
+ border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    font-size: 1.2em;
+    width: 300px;
+}
+.p5balao + .iara{
+    color: var(--iara-contraste);
+    border: 2px solid var(--iara);
+}
+.p5balao + .nina{
+    color: var(--nina-contraste);
+    border: 2px solid var(--nina); 
+}
+.p5balao + .nilo{
+    color: var(--nilo-contraste);
+    border: 2px solid var(--nilo); 
+}
+.p5balao + .sol{
+    color: var(--sol-contraste);
+    border: 2px solid var(--sol); 
+}
+.p5balao + .oto{
+    color: var(--oto-contraste);
+    border: 2px solid var(--oto); 
+}
+.p5balao + .tico{
+    color: var(--tico-contraste);
+    border: 2px solid var(--tico); 
+}
+.p5balao + .isa{
+    color: var(--isa-contraste);
+    border: 2px solid var(--isa); 
+}
+.p5balao + .ada{
+    color: var(--ada-contraste);
+    border: 2px solid var(--ada); 
+}
+
+.note1{
+     color: #333;
+  position: relative;
+  width: 300px;
+  margin:2em  ;
+  padding: 20px;
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+   background: #eae672;
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  -o-transform: rotate(2deg);
+  -ms-transform: rotate(2deg);
+  transform: rotate(2deg);
+  min-height: 200px;
+}
+.note2{
+     color: #333;
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 10px 10px 2px rgba(0,0,0,0.3);
+   background: #eae672;
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  -o-transform: rotate(-2deg);
+  -ms-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+  min-height: 200px;
+    margin:2em ;
+}
+
+.grifado{
+    background: var(--cor-grifatexto);
+    padding: 0.2em 0.5em;
+}
