@@ -1,0 +1,134 @@
+﻿ESTILOS DO ARQUIVO base_word_curso_v2.docx
+Fonte: word/styles.xml (definições) e word/document.xml (uso no texto)
+Total de estilos definidos: 107  |  Personalizados: 90  |  Internos do Word: 17
+Colunas: Nome | Baseado em | Uso no documento (nº de ocorrências)
+========================================================================
+
+ESTILOS DE PARÁGRAFO — PERSONALIZADOS (52)
+------------------------------------------------------------------------
+A0Indicacao | Normal | 2
+A0AbreBox | Normal | 13
+P4Cota | Normal | 3
+A0FechaBox | A0AbreBox | 3
+P2Glossario | Normal | 1
+P2GlossarioItem | Normal | 1
+P2ReferenciasBiblio | Normal | 1
+P2GlossarioComent | Normal | 1
+P1ReferenciasBiblioTit1 | Normal | 1
+P1ReferenciasBiblioTit2 | Normal | 1
+P1SugestCompTit1 | Normal | 1
+P1SugestCompTit2 | Normal | 1
+P1GlossarioTit1 | Normal | 1
+P1GlossarioTit2 | Normal | 1
+P2SugestComp | Normal | 1
+P0Tit1 | Normal | 1
+P0Tit2 | P0Tit1 | 1
+P0Tit3 | Normal | 1
+P0Tit4 | Normal | 1
+P0Tit5 | Normal | 1
+P0Tit6 | Normal | 1
+P1TabelaTit | — | 1
+P1GraficoTit | — | 1
+P1MapaTit | Normal | 1
+P1TabelaTitColuna | Normal | 1
+P1TabelaTexto | Normal | 2
+P2Texto | Normal | 17
+P2TextoItem | Normal | 1
+P2TextoItemCont | Normal | 1
+P1EsquemaTit | — | 1
+P3CitacaoTit1 | Normal | 1
+P3CitacaoTit2 | Normal | 1
+P3CitacaoOlho | Normal | 1
+P3Citacao | Normal | 1
+P3CitacaoItem | Normal | 1
+P3CitacaoSemRecuo | — | 1
+P3CitacaoManchete | — | 1
+P3CitacaoItemCont | — | 1
+P3CitacaoNumero | Normal | 2
+P3CitacaoNumeroCont | P3CitacaoNumero | 1
+P3CitacaoPoema | — | 1
+P3CitacaoSemRecuoMarcador | — | 1
+P3CitacaoMarcador | P3CitacaoSemRecuoMarcador | 1
+P3CitacaoSemRecuoMarcadorRomano | — | 2
+P3CitacaoMarcadorRomano | P3CitacaoMarcador | 1
+P4Legenda | Normal | 1
+P4CredGeral | Normal | 9
+P4CuidadoDica | Normal | 1
+P4CuidadoDicaItem | Normal | 1
+P4Glossario | Normal | 1
+P4CuidadoDicaItemCont | — | 1
+P5Balao | Normal | 2
+
+ESTILOS DE CARACTERE — PERSONALIZADOS (38)
+------------------------------------------------------------------------
+Título 1 Char | Default Paragraph Font | 0
+Título 2 Char | Default Paragraph Font | 0
+Título 3 Char | Default Paragraph Font | 0
+Título 4 Char | Default Paragraph Font | 0
+Título 5 Char | Default Paragraph Font | 0
+Título 6 Char | Default Paragraph Font | 0
+Título 7 Char | Default Paragraph Font | 0
+Título 8 Char | Default Paragraph Font | 0
+Título 9 Char | Default Paragraph Font | 0
+Título Char | Default Paragraph Font | 0
+Subtítulo Char | Default Paragraph Font | 0
+Citação Intensa Char | Default Paragraph Font | 0
+C1Bold | Default Paragraph Font | 1
+C1Italico | Default Paragraph Font | 2
+C1BoldItalico | Default Paragraph Font | 2
+C4SimuladorHiperlink | Default Paragraph Font | 2
+C4Ordinal | Default Paragraph Font | 4
+C4GlossarioDestaque | Default Paragraph Font | 5
+C3Idioma | Default Paragraph Font | 2
+C3IdiomaBold | Default Paragraph Font | 2
+C3IdiomaItalico | Default Paragraph Font | 2
+C3IdiomaBoldItalico | Default Paragraph Font | 2
+C4GlossarioDestaqueItalico | Default Paragraph Font | 5
+C3IdiomaSimuladorHiperlink | C4SimuladorHiperlink | 3
+C4TextoTachado | Default Paragraph Font | 1
+C4OrdinalSobrescrito | C4Ordinal | 4
+C3IdiomaGlossarioDestaque | Default Paragraph Font | 2
+C3IdiomaGlossarioDestaqueItalico | Default Paragraph Font | 2
+C4Fonema | C4GlossarioDestaqueItalico | 3
+C5ExtraDestaque | Default Paragraph Font | 1
+C5ExtraDestaqueAda | C5ExtraDestaque | 1
+C5ExtraDestaqueIara | C5ExtraDestaque | 1
+C5ExtraDestaqueIsa | C5ExtraDestaque | 1
+C5ExtraDestaqueNilo | C5ExtraDestaque | 1
+C5ExtraDestaqueNina | C5ExtraDestaque | 1
+C5ExtraDestaqueOto | C5ExtraDestaque | 1
+C5ExtraDestaqueSol | C5ExtraDestaque | 2
+C5ExtraDestaqueTico | C5ExtraDestaque | 4
+
+ESTILOS DE PARÁGRAFO — INTERNOS DO WORD (13)
+------------------------------------------------------------------------
+Normal | — | 0
+heading 1 | Normal | 0
+heading 2 | Normal | 0
+heading 3 | Normal | 0
+heading 4 | Normal | 0
+heading 5 | Normal | 0
+heading 6 | Normal | 0
+heading 7 | Normal | 0
+heading 8 | Normal | 0
+heading 9 | Normal | 0
+Title | Normal | 0
+Subtitle | Normal | 0
+Intense Quote | Normal | 0
+
+ESTILOS DE CARACTERE — INTERNOS DO WORD (2)
+------------------------------------------------------------------------
+Default Paragraph Font | — | 0
+Intense Emphasis | Default Paragraph Font | 0
+
+ESTILOS DE TABELA — INTERNOS DO WORD (1)
+------------------------------------------------------------------------
+Normal Table | — | 0
+
+ESTILOS DE LISTA — INTERNOS DO WORD (1)
+------------------------------------------------------------------------
+No List | — | 0
+
+========================================================================
+ESTILOS PERSONALIZADOS DEFINIDOS, MAS NÃO APLICADOS NO TEXTO: nenhum
+Observação: estilos "... Char" são estilos vinculados criados automaticamente pelo Word.

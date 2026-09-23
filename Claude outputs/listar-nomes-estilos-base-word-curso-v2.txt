@@ -1,0 +1,107 @@
+﻿Normal
+heading 1
+heading 2
+heading 3
+heading 4
+heading 5
+heading 6
+heading 7
+heading 8
+heading 9
+Default Paragraph Font
+Normal Table
+No List
+Título 1 Char
+Título 2 Char
+Título 3 Char
+Título 4 Char
+Título 5 Char
+Título 6 Char
+Título 7 Char
+Título 8 Char
+Título 9 Char
+Title
+Título Char
+Subtitle
+Subtítulo Char
+Intense Emphasis
+Intense Quote
+Citação Intensa Char
+A0Indicacao
+A0AbreBox
+P4Cota
+A0FechaBox
+P2Glossario
+P2GlossarioItem
+P2ReferenciasBiblio
+P2GlossarioComent
+P1ReferenciasBiblioTit1
+P1ReferenciasBiblioTit2
+P1SugestCompTit1
+P1SugestCompTit2
+P1GlossarioTit1
+P1GlossarioTit2
+P2SugestComp
+P0Tit1
+P0Tit2
+P0Tit3
+P0Tit4
+P0Tit5
+P0Tit6
+P1TabelaTit
+P1GraficoTit
+P1MapaTit
+P1TabelaTitColuna
+P1TabelaTexto
+P2Texto
+P2TextoItem
+P2TextoItemCont
+P1EsquemaTit
+P3CitacaoTit1
+P3CitacaoTit2
+P3CitacaoOlho
+P3Citacao
+P3CitacaoItem
+P3CitacaoSemRecuo
+P3CitacaoManchete
+P3CitacaoItemCont
+P3CitacaoNumero
+P3CitacaoNumeroCont
+P3CitacaoPoema
+P3CitacaoSemRecuoMarcador
+P3CitacaoMarcador
+P3CitacaoSemRecuoMarcadorRomano
+P3CitacaoMarcadorRomano
+P4Legenda
+P4CredGeral
+P4CuidadoDica
+P4CuidadoDicaItem
+P4Glossario
+P4CuidadoDicaItemCont
+C1Bold
+C1Italico
+C1BoldItalico
+C4SimuladorHiperlink
+C4Ordinal
+C4GlossarioDestaque
+C3Idioma
+C3IdiomaBold
+C3IdiomaItalico
+C3IdiomaBoldItalico
+C4GlossarioDestaqueItalico
+C3IdiomaSimuladorHiperlink
+C4TextoTachado
+C4OrdinalSobrescrito
+C3IdiomaGlossarioDestaque
+C3IdiomaGlossarioDestaqueItalico
+C4Fonema
+P5Balao
+C5ExtraDestaque
+C5ExtraDestaqueAda
+C5ExtraDestaqueIara
+C5ExtraDestaqueIsa
+C5ExtraDestaqueNilo
+C5ExtraDestaqueNina
+C5ExtraDestaqueOto
+C5ExtraDestaqueSol
+C5ExtraDestaqueTico
