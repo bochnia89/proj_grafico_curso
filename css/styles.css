@@ -12,6 +12,7 @@
 --cor-texto: #212121;
 --cor-texto: #353535;
 --cor-branco: #FFFFFF;
+--link: #00649c;
 --preto:#000000;
 --branco: #fff;
 --preto_: #2B2E34;
@@ -56,8 +57,13 @@
 --titulo:"puffin", sans-serif;
 --texto:"Work Sans", sans-serif;
 --citacao:"Noto Serif", serif;
+--comentario:"Indie Flower", cursive;
 }
-
+.normal{
+    border: 1px solid red;
+    color: red;
+    padding: 0.2em 0.5em;
+}
 p{
     font-family: var(--texto);
     line-height: 1.5em;
@@ -111,7 +117,15 @@ table p {
     margin: 0px;
     padding: 0;
 }
-
+.a0indicacao{
+    font-family: var(--comentario);
+    background: rgb(0, 147, 173);
+    color: var(--branco);
+    padding: 0.2em 0.5em;
+    border:1px solid #000;
+    text-align: center;
+    font-size: 1.1em;
+}
 /* 
 p1tabelatit
 p1tabelatitcoluna
@@ -245,7 +259,8 @@ o2graficobox
 o2graficobox2
 */
 .p1graficotit,
-.p1mapatit {
+.p1mapatit,
+.p1esquematit {
     font-family: var(--titulo);
     font-weight: 800;
 }
@@ -253,7 +268,10 @@ o2graficobox2
 .o2graficogravata1,
 .o2graficogravata2,
 .o2mapagravata1,
-.o2mapagravata2 {
+.o2mapagravata2,
+.p1mapatit,
+.p1graficotit,
+.p1esquematit  {
     border-radius: 1em 1em 0 0;
     color: var(--preto);
     padding: 0.2em 0.5em;
@@ -711,37 +729,84 @@ max-width: 100%;
     font-size: 1.2em;
     width: 300px;
 }
-.p5balao + .iara{
+
+.iara,
+.nina,
+.nilo,
+.sol,
+.oto,
+.tico,
+.isa,
+.ada{
+ border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+    font-size: 1.2em;
+    width: 300px;
+}
+.p5balao + .iara,
+.iara{
     color: var(--iara-contraste);
     border: 2px solid var(--iara);
 }
-.p5balao + .nina{
+.iara > p{
+    color: var(--iara-contraste);
+}
+.p5balao + .nina,
+.nina{
     color: var(--nina-contraste);
-    border: 2px solid var(--nina); 
+    border: 2px solid var(--nina);
 }
-.p5balao + .nilo{
+.nina > p{
+    color: var(--nina-contraste);
+}
+.p5balao + .nilo,
+.nilo{
     color: var(--nilo-contraste);
-    border: 2px solid var(--nilo); 
+    border: 2px solid var(--nilo);
 }
-.p5balao + .sol{
+.nilo > p{
+    color: var(--nilo-contraste);
+}
+.p5balao + .sol,
+.sol{
     color: var(--sol-contraste);
-    border: 2px solid var(--sol); 
+    border: 2px solid var(--sol);
 }
-.p5balao + .oto{
+.sol > p{
+    color: var(--sol-contraste);
+}
+.p5balao + .oto,
+.oto{
     color: var(--oto-contraste);
-    border: 2px solid var(--oto); 
+    border: 2px solid var(--oto);
 }
-.p5balao + .tico{
+.oto > p{
+    color: var(--oto-contraste);
+}
+.p5balao + .tico,
+.tico{
     color: var(--tico-contraste);
-    border: 2px solid var(--tico); 
+    border: 2px solid var(--tico);
 }
-.p5balao + .isa{
+.tico > p{
+    color: var(--tico-contraste);
+}
+.p5balao + .isa,
+.isa{
     color: var(--isa-contraste);
-    border: 2px solid var(--isa); 
+    border: 2px solid var(--isa);
 }
-.p5balao + .ada{
+.isa > p{
+    color: var(--isa-contraste);
+}
+.p5balao + .ada,
+.ada{
     color: var(--ada-contraste);
-    border: 2px solid var(--ada); 
+    border: 2px solid var(--ada);
+}
+.ada > p{
+    color: var(--ada-contraste);
 }
 
 /* Padrão Box Personagem */
@@ -757,11 +822,21 @@ max-width: 100%;
     border-radius: 1em;
     padding: 1em;
     margin: 1em;
-    font-size: 1em;
+   
     width: 300px;
+    
+}
+.o5box_iara p,
+.o5box_nina p,
+.o5box_nilo p,
+.o5box_sol p,
+.o5box_oto p,
+.o5box_tico p,
+.o5box_isa p,
+.o5box_ada p{
+     font-size: 1em;
     color: var(--cor-branco) ;
 }
-
 .o5box_iara {
     background:  var(--iara);
 }
@@ -871,7 +946,7 @@ max-width: 100%;
 }
 
 /* BOX PALAVRA */
-.o0boxpalavra {
+.o0boxpalavra, .o0boxpalavra>ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -887,7 +962,7 @@ max-width: 100%;
     font-family: var(--texto);
 }
 
-.o0boxpalavra li::before {
+.o0boxpalavra>ul li::before {
     content: '•';
     width: 10px;
     text-align: center;
@@ -895,7 +970,7 @@ max-width: 100%;
     margin: 0 0 0 -13px;
 }
 
-.o0boxpalavra li:first-child::before {
+.o0boxpalavra>ul li:first-child::before {
     content: '';
 }
 
@@ -1291,4 +1366,182 @@ a[href*="glossario"]:hover .c4glossariodestaqueitalico {
 }
 .c4glossariodestaquevoltar:hover {
     text-decoration: underline;
+}
+
+.c4simuladorhiperlink {
+    color: var(--link);
+    font-size: var(--pesoPadrao);
+    text-decoration: underline;
+}
+
+/* =====================================================================
+   CLASSES ACRESCENTADAS — apontadas pelo relatório do conversor
+   Critério: no Word, a cor desses estilos é sinalização para o editorial
+   (azul, vermelho, verde); no HTML vale a identidade do projeto gráfico,
+   reaproveitando as variáveis de :root. Todas as cores usadas têm
+   contraste ≥ 6,3:1 sobre branco (WCAG 2.2, 1.4.3).
+   ===================================================================== */
+
+/* IDIOMA — palavra ou trecho em outra língua.
+   O idioma é informado no atributo lang do HTML (WCAG 3.1.2); o CSS só
+   reproduz o peso e a inclinação do estilo do Word. */
+/*
+c3idioma
+c3idiomabold
+c3idiomaitalico
+c3idiomabolditalico
+c3idiomaglossariodestaque
+c3idiomaglossariodestaqueitalico
+c3idiomasimuladorhiperlink
+*/
+.c3idioma {
+    font-style: normal;
+}
+
+.c3idiomabold {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.c3idiomaitalico {
+    font-style: italic;
+}
+
+/* aninhado no molde (<strong><em>); o seletor em em evita itálico duplicado */
+.c3idiomabolditalico,
+.c3idiomabolditalico em {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* termo de glossário em outra língua: mesmo visual do c4glossariodestaque */
+.c3idiomaglossariodestaque,
+.c3idiomaglossariodestaqueitalico {
+    font-style: normal;
+    color: var(--cor-primaria);
+    font-weight: 500;
+}
+.c3idiomaglossariodestaqueitalico {
+    font-style: italic;
+}
+
+/* endereço em outra língua: mesmo visual do c4simuladorhiperlink */
+.c3idiomasimuladorhiperlink {
+    color: var(--link);
+    font-size: var(--pesoPadrao);
+    text-decoration: underline;
+    word-break: break-word;
+}
+
+/* FONEMA — ex.: /b/. Destaque de cor e peso, sem itálico (como no Word). */
+.c4fonema {
+    font-style: normal;
+    font-weight: 500;
+    color: var(--cor-primaria);
+    white-space: nowrap;
+}
+
+/* ORDINAL — ª e º digitados (AltGr). No Word o estilo só troca a fonte
+   para Calibri desenhar bem os símbolos; no HTML a fonte do texto já
+   desenha, então a classe não altera o visual. */
+.c4ordinal {
+    font-style: inherit;
+}
+
+/* ORDINAL SOBRESCRITO — 1st, 2nd, 1.er (inglês e espanhol), usado com <sup>.
+   line-height: 0 impede que o sobrescrito aumente a altura da linha. */
+.c4ordinalsobrescrito {
+    font-size: 0.75em;
+    line-height: 0;
+    vertical-align: super;
+}
+
+/* FIGURA — <figure class="figura">. O figure genérico já usa display: table
+   para a legenda acompanhar a largura da imagem. */
+.figura {
+    margin: 1em 0;
+    max-width: 100%;
+}
+
+/* CRÉDITO DE IMAGEM — <span> dentro do <figcaption>, em linha própria */
+.p4credimagem {
+    display: block;
+    font-family: var(--texto);
+    font-size: 0.85em;
+    color: var(--cor-texto);
+    margin: 0.2em 0 0 0;
+}
+
+/* GLOSSÁRIO — itens e comentário do verbete */
+/*
+p2glossarioitem
+p2glossariocoment
+p4glossario
+*/
+ul.p2glossarioitem {
+    list-style: disc;
+    margin: 0.3em 0 0 0;
+    padding: 0 0 0 1.2em;
+    font-family: var(--texto);
+    color: var(--cor-texto);
+}
+li.p2glossarioitem {
+    line-height: 1.5em;
+}
+
+.p2glossariocoment {
+    font-family: var(--texto);
+    font-size: 0.9em;
+    color: var(--cor-texto);
+    line-height: 1.5em;
+    margin: 0.3em 0 0 0.6em;
+}
+
+/* glossário curto dentro da aula (lista de termos e definições) */
+.p4glossario {
+    font-family: var(--texto);
+    font-size: 0.9em;
+    color: var(--cor-texto);
+    border-left: 4px solid var(--cor-secundaria);
+    padding: 0.4em 0.8em;
+    margin: 1em 0;
+}
+.p4glossario dt {
+    font-weight: bold;
+    color: var(--cor-primaria);
+}
+.p4glossario dd {
+    margin: 0 0 0.5em 0;
+    line-height: 1.5em;
+}
+
+/* CUIDADO / DICA — nota lateral ao texto principal */
+/*
+p4cuidadodica
+p4cuidadodicaitem
+p4cuidadodicaitemcont
+*/
+.p4cuidadodica,
+.p4cuidadodicaitem,
+.p4cuidadodicaitemcont {
+    font-family: var(--texto);
+    font-size: 0.9em;
+    color: var(--cor-texto);
+    line-height: 1.5em;
+}
+
+.p4cuidadodica {
+    border-left: 4px solid var(--cor-primaria);
+    padding: 0.2em 0 0.2em 0.8em;
+    margin: 1em 0 0.3em 0;
+}
+
+ul.p4cuidadodicaitem {
+    list-style: disc;
+    margin: 0 0 0 0.8em;
+    padding: 0 0 0 1.2em;
+}
+
+.p4cuidadodicaitemcont {
+    margin: 0 0 0.3em 2em;
 }
