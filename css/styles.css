@@ -940,6 +940,14 @@ max-width: 100%;
     margin:2em ;
 }
 
+.note1 p,
+.note2 p{
+         font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--cor-caneta);
+}
+
 .grifado{
     background: var(--cor-grifatexto);
     padding: 0.2em 0.5em;
