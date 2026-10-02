@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Indie Flower";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("https://fonts.gstatic.com/s/indieflower/v22/m8JVjfNVeKWVnh3QMuKkFcZVZ0uH5dI.woff2") format("woff2");
+}
+:root {
+/*👉color👈*/
+--cor-primaria: #674EA7;
+--cor-secundaria: #dad2e9;
+--cor-grifatexto: #dad2e9;
+--cor-caneta: #145b99;
+--cor-fundo: #FFFFFF;
+--cor-texto: #212121;
+--cor-texto: #353535;
+--cor-branco: #FFFFFF;
+
+--iara:#60669C;
+--nina:#BB4A68;
+--nilo:#99A941;
+--sol:#ebae35;
+--oto:#B05A93;
+--tico:#528EAF;
+--isa:#468087;
+--ada:#da7d1b;
+
+--iara-contraste:#515683;
+--nina-contraste:#813247;
+--nilo-contraste:#636d2a;
+--sol-contraste:#8f681b;
+--oto-contraste:#8b4875;
+--tico-contraste:#406f88;
+--isa-contraste:#346166;
+--ada-contraste:#a36421;
+
+/* fontes */
+--titulo:"puffin", sans-serif;
+--texto:"Work Sans", sans-serif;
+--citacao:"Noto Serif", serif;
+}

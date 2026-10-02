@@ -1,73 +1,33 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Patrick+Hand+SC&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-@import url("https://use.typekit.net/iek4emy.css");
-
-:root {
-/*👉color👈*/
---cor-primaria: #674EA7;
---cor-secundaria: #dad2e9;
---cor-grifatexto: #dad2e9;
---cor-caneta: #145b99;
---cor-fundo: #FFFFFF;
---cor-texto: #212121;
---cor-texto: #353535;
---cor-branco: #FFFFFF;
---link: #00649c;
---preto:#000000;
---branco: #fff;
---preto_: #2B2E34;
---cinza: #ececec;
---pesoPadrao: 1em;
-
---iara:#60669C;
---nina:#BB4A68;
---nilo:#99A941;
---sol:#ebae35;
---oto:#B05A93;
---tico:#528EAF;
---isa:#468087;
---ada:#da7d1b;
-
---iara-bg:#d0d4f8;
---iara-bg2:#f1f2ff;
---nina-bg:#f6d0da;
---nina-bg2:#fff1f4;
---nilo-bg:#e6edc4;
---nilo-bg2:#f8fbea;
---sol-bg:#fbe6bb;
---sol-bg2:#fff8ea;
---oto-bg:#f1d2e7;
---oto-bg2:#fdf1f9;
---tico-bg:#cfe4f1;
---tico-bg2:#f0f8fd;
---isa-bg:#cce6e8;
---isa-bg2:#eef8f9;
---ada-bg:#f9dcbd;
---ada-bg2:#fff5ea;
---iara-contraste:#515683;
---nina-contraste:#813247;
---nilo-contraste:#636d2a;
---sol-contraste:#8f681b;
---oto-contraste:#8b4875;
---tico-contraste:#406f88;
---isa-contraste:#346166;
---ada-contraste:#a36421;
-
-/* fontes */
---titulo:"puffin", sans-serif;
---texto:"Work Sans", sans-serif;
---citacao:"Noto Serif", serif;
---comentario:"Indie Flower", cursive;
+.col2c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 16px;
 }
+.col2s {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 16px;
+}
+
 .normal{
     border: 1px solid red;
     color: red;
     padding: 0.2em 0.5em;
 }
-p{
-    font-family: var(--texto);
-    line-height: 1.5em;
+.a0indicacao{
+    font-family: var(--comentario);
+    background: rgb(0, 147, 173);
+    color: var(--branco);
+    padding: 0.2em 0.5em;
+    border:1px solid #000;
+    text-align: center;
+    font-size: 1.1em;
 }
+
+/* ESTILO DE IMAGEM E LEGENDA */
 figure {
     margin: 1em 0.5em;
     display: table;
@@ -90,7 +50,6 @@ figcaption.p4legenda {
     caption-side: bottom;
     hyphens: none;
 }
-
 /* TABELAS E QUADROS — com base em base_universal/resources/styles/styles_lt.css */
 table {
     border-collapse: collapse;
@@ -117,15 +76,7 @@ table p {
     margin: 0px;
     padding: 0;
 }
-.a0indicacao{
-    font-family: var(--comentario);
-    background: rgb(0, 147, 173);
-    color: var(--branco);
-    padding: 0.2em 0.5em;
-    border:1px solid #000;
-    text-align: center;
-    font-size: 1.1em;
-}
+
 /* 
 p1tabelatit
 p1tabelatitcoluna
@@ -244,6 +195,7 @@ tb_zebrada
     overflow-x: auto;
 }
 
+
 /* GRÁFICOS E MAPAS — com base em styles_lt.css, cor: --iara */
 /*
 p1graficotit
@@ -321,14 +273,6 @@ o2graficobox2
 
 .o2graficobox2 {}
 
-.instrucao{
-    background: var(--cor-texto);
-    padding: 1em;
-    color:#fff;
-    font-family: var(--texto);
-    margin: 1.5em 0 0 0;
-}
-
 .indie-flower-regular {
   font-family: "Indie Flower", cursive;
   font-weight: 400;
@@ -341,124 +285,37 @@ o2graficobox2
   font-style: normal;
 }
 
-.c0destaquenumerocitacao{
-    font-family: var(--citacao);
-    font-weight: 800;
-    font-style: normal;
-    color: var(--cor-primaria);
-     font-weight: bold;
-    position: absolute;
-    width: 30px;
-    height: 20px;
-    margin: 0 0 0 -30px;
-    text-align: center;
 
-}
-.c1bold{
+.c1bold {
     font-weight: bold;
 }
-
-.c1italico{
+.c1italico {
     font-style: italic;
 }
-
-.c1bolditalico{
+.c1bolditalico {
     font-weight: bold;
     font-style: italic;
 }
-.c4textosublinhado{
-    border-bottom: 0.1em solid var(--cor-texto);
+.c4textosublinhado {
+    border-bottom: 0.1em solid #212121;
         text-decoration: none;
 }
-.c4textotachado{
+.c4textotachado {
     text-decoration: line-through;
 }
-
 .c5extradestaque{
-    font-weight: 500;
-    color: var(--iara);
+    font-weight: 600;
+   color: var(--iara);
 }
-
-
-.c5extradestaquenina,
-.c5extradestaquenilo,
-.c5extradestaquesol,
-.c5extradestaqueoto,
-.c5extradestaquetico,
-.c5extradestaqueisa,
-.c5extradestaqueada,
-.c5extradestaqueiara{
-    font-weight: 500;
-    color: var(--cor-branco);
-    padding: 0 0.2em;
+.p4credgeral{
+    font-family: var(--texto);
+    font-size: 0.9em;
+    color: var(--cor-texto);
+    text-align: right;
 }
-.c5extradestaqueiara {
-    background: var(--iara-contraste);
+.p4credgeral > a {
+color: var(--isa-contraste);
 }
-.c5extradestaquenina {
-    background: var(--nina-contraste);
-}
-.c5extradestaquenilo {
-    background: var(--nilo-contraste);
-}
-.c5extradestaquesol {
-    background: var(--sol-contraste);
-}
-.c5extradestaqueoto {
-    background: var(--oto-contraste);
-}
-.c5extradestaquetico {
-    background: var(--tico-contraste);
-}
-.c5extradestaqueisa {
-    background: var(--isa-contraste);
-}
-.c5extradestaqueada {
-    background: var(--ada-contraste);
-}
-
-
-.o5box_iara .c5extradestaqueiara{
-    color: var(--iara-contraste) ;
-     background: var(--cor-branco);
-}
-
-.o5box_nina .c5extradestaquenina{
-    color: var(--nina-contraste) ;
-     background: var(--cor-branco);
-}
-
-.o5box_nilo .c5extradestaquenilo{
-    color: var(--nilo-contraste) ;
-     background: var(--cor-branco);
-}
-
-.o5box_sol .c5extradestaquesol{
-    color: var(--sol-contraste) ;
-     background: var(--cor-branco);
-}
-
-.o5box_oto .c5extradestaqueoto{
-    color: var(--oto-contraste) ;
-     background: var(--cor-branco);
-}
-
-.o5box_tico .c5extradestaquetico{
-    color: var(--tico-contraste) ;
-     background: var(--cor-branco);
-}
-
-.o5box_isa .c5extradestaqueisa{
-    color: var(--isa-contraste) ;
-     background: var(--cor-branco);
-}
-
-.o5box_ada .c5extradestaqueada{
-    color: var(--ada-contraste) ;
-     background: var(--cor-branco);
-}
-
-
 .p0tit1,
 .p0tit2,
 .p0tit3,
@@ -514,10 +371,11 @@ max-width: 100%;
 }
 .p3citacao{
     font-family: "Noto Serif", serif;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
     padding: 0.2em 0.8em;
     margin: 1em 0 1em 0;
- 
+    width: fit-content;
+    max-width: 100%;
      
 }
 .p3citacao::before{
@@ -532,7 +390,7 @@ max-width: 100%;
     content: "”";
     color: var(--cor-primaria);
     font-size: 1.5em;
-
+ 
 
 }
 
@@ -635,7 +493,6 @@ max-width: 100%;
     border-left: 4px solid var(--cor-primaria);
     padding: 0.2em 0.2em 0.2em 0.4em;
 }
-
 .p1figuratit{
     color: var(--cor-primaria);
     border-top: 2px solid var(--cor-primaria);
@@ -663,12 +520,8 @@ max-width: 100%;
   font-weight: 400;
   font-style: normal;
   color: var(--cor-caneta);
-  width: fit-content;
-  max-width: 100%;  
-  margin: 1em;
-}
-.comentario.seta_acima{
-
+  max-width: 100%;
+  margin: 1em 0;
 }
 .comentario.seta_acima::before{
     content: '';
@@ -690,9 +543,7 @@ max-width: 100%;
     margin: 1em 0 0 0;
     z-index: 2;
     transform: scaleX(-1);
-
 }
-
 .p5marcador{
     background: var(--preto);
     font-family: var(--texto);
@@ -710,24 +561,25 @@ max-width: 100%;
     margin: 0 0 0 -39px;
 }
 .p5balao {
-     font-family: "Patrick Hand SC", cursive;
+  font-family: "Patrick Hand SC", cursive;
   font-weight: 400;
   font-style: normal;
 }
 /* balao fala personagem */
-.p5balao + .iara,
-.p5balao + .nina,
-.p5balao + .nilo,
-.p5balao + .sol,
-.p5balao + .oto,
-.p5balao + .tico,
-.p5balao + .isa,
-.p5balao + .ada{
+.p5balao.iara,
+.p5balao.nina,
+.p5balao.nilo,
+.p5balao.sol,
+.p5balao.oto,
+.p5balao.tico,
+.p5balao.isa,
+.p5balao.ada{
  border-radius: 1em;
     padding: 1em;
-    margin: 1em;
+    margin: 1em 0;
     font-size: 1.2em;
-    width: 300px;
+    width:fit-content;
+    max-width:100%;
 }
 
 .iara,
@@ -744,71 +596,70 @@ max-width: 100%;
     font-size: 1.2em;
     width: 300px;
 }
-.p5balao + .iara,
+.p5balao.iara, 
 .iara{
     color: var(--iara-contraste);
     border: 2px solid var(--iara);
 }
-.iara > p{
+.iara>p{
     color: var(--iara-contraste);
 }
-.p5balao + .nina,
+.p5balao.nina,
 .nina{
     color: var(--nina-contraste);
-    border: 2px solid var(--nina);
+    border: 2px solid var(--nina); 
 }
 .nina > p{
     color: var(--nina-contraste);
 }
-.p5balao + .nilo,
+.p5balao.nilo,
 .nilo{
     color: var(--nilo-contraste);
-    border: 2px solid var(--nilo);
+    border: 2px solid var(--nilo); 
 }
 .nilo > p{
     color: var(--nilo-contraste);
 }
-.p5balao + .sol,
+.p5balao.sol,
 .sol{
     color: var(--sol-contraste);
-    border: 2px solid var(--sol);
+    border: 2px solid var(--sol); 
 }
 .sol > p{
     color: var(--sol-contraste);
 }
-.p5balao + .oto,
+.p5balao.oto,
 .oto{
     color: var(--oto-contraste);
-    border: 2px solid var(--oto);
+    border: 2px solid var(--oto); 
 }
 .oto > p{
     color: var(--oto-contraste);
 }
-.p5balao + .tico,
+.p5balao.tico,
 .tico{
     color: var(--tico-contraste);
-    border: 2px solid var(--tico);
+    border: 2px solid var(--tico); 
 }
 .tico > p{
     color: var(--tico-contraste);
 }
-.p5balao + .isa,
+.p5balao.isa,
 .isa{
     color: var(--isa-contraste);
-    border: 2px solid var(--isa);
+    border: 2px solid var(--isa); 
 }
 .isa > p{
     color: var(--isa-contraste);
 }
-.p5balao + .ada,
+.p5balao.ada,
 .ada{
     color: var(--ada-contraste);
-    border: 2px solid var(--ada);
+    border: 2px solid var(--ada); 
 }
 .ada > p{
     color: var(--ada-contraste);
 }
-
 /* Padrão Box Personagem */
 
 .o5box_iara,
@@ -821,27 +672,20 @@ max-width: 100%;
 .o5box_ada  {
     border-radius: 1em;
     padding: 1em;
-    margin: 1em;
+    margin: 1em 0 1em 65px;
+    font-size: 1em;
+    width: fit-content;
+    max-width:100%;
     color: var(--cor-branco) ;
-    width: 300px;
-    
 }
 .o5box_iara p,
-.o5box_iara ul,
 .o5box_nina p,
-.o5box_nina ul,
 .o5box_nilo p,
-.o5box_nilo ul,
 .o5box_sol p,
-.o5box_sol ul,
 .o5box_oto p,
-.o5box_oto ul,
 .o5box_tico p,
-.o5box_tico ul,
 .o5box_isa p,
-.o5box_isa ul,
-.o5box_ada p,
-.o5box_ada ul{
+.o5box_ada p{
      font-size: 1em;
     color: var(--cor-branco) ;
 }
@@ -908,11 +752,12 @@ max-width: 100%;
 .o5box_isa::before,
 .o5box_ada::before {
     content: '';
-    width: 250px;
+    width:80px;
     height: 250px;
     position: absolute;
     background-size:contain;
-    margin: -20px 0 0 320px;
+    margin: 0 0 0 -85px;
+    transform: scaleX(-1);
 }
 
 
@@ -929,7 +774,7 @@ max-width: 100%;
   -o-transform: rotate(2deg);
   -ms-transform: rotate(2deg);
   transform: rotate(2deg);
-  min-height: 200px;
+  min-height: 100px;
 }
 .note2{
      color: #333;
@@ -944,7 +789,7 @@ max-width: 100%;
   -o-transform: rotate(-2deg);
   -ms-transform: rotate(-2deg);
   transform: rotate(-2deg);
-  min-height: 200px;
+  min-height: 100px;
     margin:2em ;
 }
 
@@ -962,7 +807,7 @@ max-width: 100%;
 }
 
 /* BOX PALAVRA */
-.o0boxpalavra, .o0boxpalavra>ul {
+.o0boxpalavra, .o0boxpalavra> ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -996,7 +841,6 @@ max-width: 100%;
     color: var(--cor-texto);
     text-align: right;
 }
-
 /* BLOCOS (CICLO) — estrutura comum; cores e número definidos por bloco abaixo */
 .d0bloco01{
     --bloco-cor: var(--iara-contraste);
@@ -1560,4 +1404,163 @@ ul.p4cuidadodicaitem {
 
 .p4cuidadodicaitemcont {
     margin: 0 0 0.3em 2em;
+}
+
+/* DESTAQUE PERSONAGENS */
+.c5extradestaqueiara,
+.c5extradestaquenina,
+.c5extradestaquenilo,
+.c5extradestaquesol,
+.c5extradestaqueoto,
+.c5extradestaquetico,
+.c5extradestaqueisa,
+.c5extradestaqueada,
+.c5extradestaqueiara{
+    font-weight: 500;
+    color: var(--cor-branco);
+    padding: 0 0.2em;
+}
+.c5extradestaqueiara {
+    background: var(--iara-contraste);
+}
+.c5extradestaquenina {
+    background: var(--nina-contraste);
+}
+.c5extradestaquenilo {
+    background: var(--nilo-contraste);
+}
+.c5extradestaquesol {
+    background: var(--sol-contraste);
+}
+.c5extradestaqueoto {
+    background: var(--oto-contraste);
+}
+.c5extradestaquetico {
+    background: var(--tico-contraste);
+}
+.c5extradestaqueisa {
+    background: var(--isa-contraste);
+}
+.c5extradestaqueada {
+    background: var(--ada-contraste);
+}
+
+.o5box_iara .c5extradestaqueiara{
+    color: var(--iara-contraste) ;
+     background: var(--cor-branco);
+}
+
+.o5box_nina .c5extradestaquenina{
+    color: var(--nina-contraste) ;
+     background: var(--cor-branco);
+}
+
+.o5box_nilo .c5extradestaquenilo{
+    color: var(--nilo-contraste) ;
+     background: var(--cor-branco);
+}
+
+.o5box_sol .c5extradestaquesol{
+    color: var(--sol-contraste) ;
+     background: var(--cor-branco);
+}
+
+.o5box_oto .c5extradestaqueoto{
+    color: var(--oto-contraste) ;
+     background: var(--cor-branco);
+}
+
+.o5box_tico .c5extradestaquetico{
+    color: var(--tico-contraste) ;
+     background: var(--cor-branco);
+}
+
+.o5box_isa .c5extradestaqueisa{
+    color: var(--isa-contraste) ;
+     background: var(--cor-branco);
+}
+
+.o5box_ada .c5extradestaqueada{
+    color: var(--ada-contraste) ;
+     background: var(--cor-branco);
+}
+
+/* ABAIXO ESTILOS DO FORNECEDOR */
+
+#page-footer .copyright .madeby {/*Esconde a parte laranja do rodapé*/
+    display: none;
+}
+#page-footer .column-right {/*Esconder os app google pay e app store */
+    text-align: right;
+    display: none;
+}
+#page-footer { /*Alteração da cor do rodapé*/
+    background-color: #6a4197;
+    color: #fff;
+}
+
+#page-footer .column-center {/*Esconder informações do rodapé*/
+    text-align: center;
+    display: none;
+}
+
+
+.login-layout-left-content {/*Remove o bloco de boas vindas ao moodle na tela de login*/
+    display: none;
+}
+.alert-info {/*Remove o bloco de alerta da gaveta do lado direito da tela*/
+    display: none;
+}
+.caixadica{
+background: pink;
+margin: 1em;
+color: black;
+}
+
+/* Esconde o item Calendário para visitantes */
+body.notloggedin .primary-navigation a[href*="/calendar/view.php"] {
+    display: none !important;
+}
+
+/* CHAT SINTONIA  IA */
+
+.chatsintonia {
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    z-index: 9999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.chatsintonia img {
+    display: block;
+    width: 70px;      /* ajuste conforme necessário */
+    height: auto;
+    filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.3));
+}
+
+.chatsintonia:hover {
+    transform: scale(1.1);
+}
+
+.chatsintonia:active {
+    transform: scale(0.95);
+}
+
+.chatsintonia {
+    animation: flutuar 2.5s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
 }
