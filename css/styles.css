@@ -822,18 +822,26 @@ max-width: 100%;
     border-radius: 1em;
     padding: 1em;
     margin: 1em;
-   
+    color: var(--cor-branco) ;
     width: 300px;
     
 }
 .o5box_iara p,
+.o5box_iara ul,
 .o5box_nina p,
+.o5box_nina ul,
 .o5box_nilo p,
+.o5box_nilo ul,
 .o5box_sol p,
+.o5box_sol ul,
 .o5box_oto p,
+.o5box_oto ul,
 .o5box_tico p,
+.o5box_tico ul,
 .o5box_isa p,
-.o5box_ada p{
+.o5box_isa ul,
+.o5box_ada p,
+.o5box_ada ul{
      font-size: 1em;
     color: var(--cor-branco) ;
 }
