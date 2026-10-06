@@ -823,7 +823,9 @@ max-width: 100%;
     padding: 1em;
     margin: 1em;
     color: var(--cor-branco) ;
-    width: 300px;
+    width: fit-content;
+    max-width: 100%;
+    margin: 1em 0 1em 65px;
     
 }
 .o5box_iara p,
