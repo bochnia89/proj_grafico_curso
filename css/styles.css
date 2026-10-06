@@ -871,7 +871,7 @@ max-width: 100%;
     background:  var(--ada);
 
 }
-
+/* Ilustração de cada personagem */
 .o5box_iara::before {
     background: url(https://www.sintoniaeducacao.com.br/ei/resources/images/sintonizados/iara/iara_1.png) left top no-repeat;
  
@@ -898,8 +898,25 @@ max-width: 100%;
     background: url(https://www.sintoniaeducacao.com.br/ei/resources/images/sintonizados/ada/ada_1.png) left top no-repeat;
 }
 
-
+/* Tamanho e posição da ilustração (espelhada, à esquerda da caixa).
+   Precisa vir DEPOIS das regras acima para o background-size valer. */
 .o5box_iara::before,
+.o5box_nina::before,
+.o5box_nilo::before,
+.o5box_sol::before,
+.o5box_oto::before,
+.o5box_tico::before,
+.o5box_isa::before,
+.o5box_ada::before {
+    content: '';
+    width: 80px;
+    height: 250px;
+    position: absolute;
+    background-size: contain;
+    margin: 0 0 0 -85px;
+    transform: scaleX(-1);
+}
+/*👉.o5box_iara::before,
 .o5box_nina::before,
 .o5box_nilo::before,
 .o5box_sol::before,
@@ -913,7 +930,8 @@ max-width: 100%;
     position: absolute;
     background-size:contain;
     margin: -20px 0 0 320px;
-}
+}👈*/
+
 
 
 .note1{
