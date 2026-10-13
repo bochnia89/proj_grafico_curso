@@ -126,6 +126,15 @@ table p {
     text-align: center;
     font-size: 1.1em;
 }
+
+.d0roteirovideoaudio{
+    background: var(--cinza);
+    font-style: italic;
+    color: #3b3b3b;
+    margin: 1em ;
+    padding: 1em;
+
+}
 /* 
 p1tabelatit
 p1tabelatitcoluna
