@@ -59,6 +59,14 @@
 --citacao:"Noto Serif", serif;
 --comentario:"Indie Flower", cursive;
 }
+
+.comentarioCode{
+    background: #e4e4e4;
+    width: fit-content;
+    padding: 0.2em 0.5em;
+    border-radius: 0.5em;
+}
+
 .normal{
     border: 1px solid red;
     color: red;
