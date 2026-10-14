@@ -522,6 +522,14 @@ max-width: 100%;
     color: var(--cor-texto);
     list-style: disc;
     font-family: var(--texto);
+    margin: 0.5em 0 0.5em 0;
+}
+.p2textosubitem{
+    color: var(--cor-texto);
+    font-family: var(--texto);
+     list-style:circle;
+    line-height: 1.5em;
+    margin: 0.5em 0 0.5em 1em;
 }
 .p2textoitemcont{
      color: var(--cor-texto);
@@ -1584,7 +1592,7 @@ p4cuidadodicaitemcont
 }
 
 .p4cuidadodica {
-    border-left: 4px solid var(--cor-primaria);
+  /*👉  border-left: 4px solid var(--cor-primaria);👈*/
     padding: 0.2em 0 0.2em 0.8em;
     margin: 1em 0 0.3em 0;
 }
