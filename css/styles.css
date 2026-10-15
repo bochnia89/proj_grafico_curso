@@ -660,7 +660,7 @@ max-width: 100%;
     font-family: var(--texto);
     border-left: 4px solid var(--cor-primaria);
     padding: 0.2em 0.2em 0.2em 0.4em;
-    word-break: break-all;
+
 }
 
 .p1figuratit{
@@ -1042,6 +1042,7 @@ max-width: 100%;
     font-size: 0.9em;
     color: var(--cor-texto);
     text-align: right;
+        word-break: break-all;
 }
 
 /* BLOCOS (CICLO) — estrutura comum; cores e número definidos por bloco abaixo */
