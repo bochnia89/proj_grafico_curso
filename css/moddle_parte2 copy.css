@@ -148,6 +148,15 @@
     font-family: var(--texto);
 }
 
+/* Lista de subitem de lista (parágrafo recuado, sem marcador) */
+.p2textosubitem{
+    color: var(--cor-texto);
+    font-family: var(--texto);
+     list-style:circle;
+    line-height: 1.5em;
+    margin: 0.5em 0 0.5em 1em;
+}
+
 /* Continuação de item de lista (parágrafo recuado, sem marcador) */
 .p2textoitemcont {
     color: var(--cor-texto);
@@ -1054,6 +1063,7 @@ p.p1tabelatextoitem::before {
     margin: 1em;
     font-size: 1.2em;
     width: 300px;
+      max-width: 85%;
 }
 
 /* Cor de cada personagem (borda + texto) */
@@ -1417,6 +1427,7 @@ p.p1tabelatextoitem::before {
     -ms-transform: rotate(2deg);
     transform: rotate(2deg);
     min-height: 100px;
+      max-width: 80%;
 }
 
 .note2 {
@@ -1433,6 +1444,7 @@ p.p1tabelatextoitem::before {
     transform: rotate(-2deg);
     min-height: 100px;
     margin: 2em;
+      max-width: 80%;
 }
 
 .note1 p,
@@ -1463,8 +1475,8 @@ p.p1tabelatextoitem::before {
 }
 
 .p4cuidadodica {
-    border-left: 4px solid var(--cor-primaria);
-    padding: 0.2em 0 0.2em 0.8em;
+
+    padding: 0.2em 0 0.2em 0;
     margin: 1em 0 0.3em 0;
 }
 
@@ -1803,6 +1815,14 @@ li.p2glossarioitem {
     border: 1px solid #000;
     text-align: center;
     font-size: 1.1em;
+}
+.d0roteirovideoaudio{
+    background: var(--cinza);
+    font-style: italic;
+    color: #3b3b3b;
+    margin: 1em ;
+    padding: 1em;
+
 }
 
 /* Caixa de dica (rosa) */

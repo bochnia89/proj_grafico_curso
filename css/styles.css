@@ -770,6 +770,7 @@ max-width: 100%;
     margin: 1em;
     font-size: 1.2em;
     width: 300px;
+    max-width: 85%;
 }
 .p5balao + .iara,
 .iara{
@@ -977,6 +978,7 @@ max-width: 100%;
   -ms-transform: rotate(2deg);
   transform: rotate(2deg);
   min-height: 200px;
+  max-width: 80%;
 }
 .note2{
      color: #333;
@@ -993,6 +995,7 @@ max-width: 100%;
   transform: rotate(-2deg);
   min-height: 200px;
     margin:2em ;
+      max-width: 80%;
 }
 
 .note1 p,
