@@ -1439,6 +1439,7 @@ a[href*="glossario"]:hover .c4glossariodestaqueitalico {
     color: var(--link);
     font-size: var(--pesoPadrao);
     text-decoration: underline;
+    word-break: break-all;
 }
 
 /* =====================================================================
